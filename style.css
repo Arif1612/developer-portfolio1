@@ -1,12 +1,12 @@
-body{
+body{ /* lekhar font google theke nia ase thik korse*/
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-h1{
+h1{ /*h1 ar font size baraise*/
     font-size: 50px;
     
 }
-.orange-color{
+.orange-color{  /*color dise*/
     color: orange;
 }
 /*section{
@@ -17,22 +17,22 @@ h1{
     
 }*/
 
-.flexible-container{
+.flexible-container{  /* container k vag korer jonno kora hoise*/
     display: flex;
     padding-left: 5%;
     margin-bottom: 120px;
 
 }
-.half-width{
+.half-width{ 
     width: 50%;
     padding-left: 2%;
     
 }
-.half-width img{
+.half-width img{ /* specially img ar size komaise*/
     width: 80%;
     padding-top: 5%;
 }
-.link-button{
+.link-button{  /* clickable link sundor korer jonno ja ja kora lage korse*/
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
@@ -40,31 +40,31 @@ h1{
     padding: 10px 40px;
     border-radius: 10px;
 }
-.top-banner{
+.top-banner{   /*section 1 ar background image dise*/
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat ;
 }
-.dream-big{
+.dream-big{  /*section 2 ar background image dise */
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat ;
     background-position: right;
 }
-.color-orange{
+.color-orange{  /* section 3 arlekha orange color korer jonno*/
     color: orange;
 }
 
-.experience-item{
+.experience-item{  /*section 3 ar box shadow banaite ja ja lage kora hoise aikhane banaise */
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 80px gray;
     padding-left: 10px;
     border-radius: 10%;
     
     
 }
 
-.experience-area{
+.experience-area{   /* section 3 ar background  image dise */
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -72,27 +72,29 @@ h1{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 50px; /*font size baraise*/
 }
 h2{
     font-size: 40px;
 }
     
-#web-dev-exp{
+#web-dev-exp{ /* given baby developer boder*/
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan) ;
     border-image-slice: 1;
     
 }
-#full-stacl-exp{
+#full-stack-exp{  /*given border line*/
     border-left: 7px solid;
+    border-right: 7px solid;
     border-image: linear-gradient(red,purple) ;
     border-image-slice: 1;
 
 }
 
-footer h3{
-    
+footer h3{   /*footer center*/
+
+     background-color: lightblue;
      text-align: center;
 
     
